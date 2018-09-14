@@ -50,7 +50,7 @@ function Snake () {
     this.x = this.x + this.xspeed * scl;
     this.y = this.y + this.yspeed * scl;
 
-    this.x = constrain(this.x, 0, width - scl);
+    this.x = constrain(this.x, 0, width - scl); // keeps the snake with in the canvas
     this.y = constrain(this.y, 0, height - scl);
   }
 

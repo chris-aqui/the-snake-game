@@ -1,12 +1,12 @@
 
 console.log("loaded sketch");
 let s; // snake
-let scl = 20;
+let scl = 20; // snake size
 
 let food;
 
 function setup () {
-  console.log("setup canvus");
+  console.log("setup canvas");
   // define the canvas size.
   createCanvas(600, 600);
 

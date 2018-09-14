@@ -1,4 +1,4 @@
-# Coding Challenge #3: The Snake Game
+# Coding Challenge #3: The Snake Game (code along)
 
 p5.js version of the snake game
 
