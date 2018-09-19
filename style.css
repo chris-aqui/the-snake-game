@@ -7,7 +7,9 @@ body{
     /* justify-content: center; */
     align-items: center;
     background: #003333;
+    overflow: hidden;
 }
+
 h1{
     color: #FF3333;
     text-align: center;

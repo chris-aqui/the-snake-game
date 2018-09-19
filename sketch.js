@@ -9,7 +9,7 @@ function setup () {
   console.log("setup canvas");
   // define the canvas size.
   // createCanvas(600, 600);
-  var canvas = createCanvas(600, 450);
+  var canvas = createCanvas(600, 500);
   // canvas();
   canvas.parent('p5-container');
 
