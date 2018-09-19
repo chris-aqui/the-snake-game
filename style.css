@@ -1,11 +1,19 @@
 body{
+    width: 100vw;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background: #003333;
 }
 h1{
     color: #FF3333;
     text-align: center;
+}
+
+.score-text{
+    text-align: center;
+    color: whitesmoke;
 }
