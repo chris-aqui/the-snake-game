@@ -8,12 +8,14 @@ let food;
 function setup () {
   console.log("setup canvas");
   // define the canvas size.
-  createCanvas(600, 600);
+  // createCanvas(600, 600);
+  var canvas = createCanvas(600, 600);
+  // canvas();
+  canvas.parent('p5-container');
 
   s = new Snake();
   frameRate(10);
   pickLocation();
-
 }
 
 function pickLocation () {
@@ -30,6 +32,7 @@ function mousePressed () {
 function draw () {
   console.log('drawing canvus')
   //  background color
+  // canvas.parent('p5-container');
   background(51);
 
   if (s.eat(food)) {
