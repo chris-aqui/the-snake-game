@@ -10,10 +10,13 @@ function Snake () {
   this.total = 0;
   this.tail = [];
 
+
   this.eat = function(pos) {
     let d = dist(this.x, this.y, pos.x, pos.y);
     if (d < 1) {
       this.total++;
+      $(".score").text(this.total);
+      console.log(this.total)
       return true;
     } else {
       return false;
@@ -31,8 +34,9 @@ function Snake () {
       let pos = this.tail[i];
       let d = dist(this.x, this.y, pos.x, pos.y);
       if (d < 1) {
-        console.log('starting over');
+        // console.log('starting over');
         this.total = 0;
+        $(".score").text('0');
         this.tail = [];
       }
     }

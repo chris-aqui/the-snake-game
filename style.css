@@ -1,5 +1,6 @@
-body{
+body {
     width: 100vw;
+    min-width: 700px;
     height: 100vh;
 
     display: flex;
@@ -10,12 +11,12 @@ body{
     overflow: hidden;
 }
 
-h1{
+h1 {
     color: #FF3333;
     text-align: center;
 }
 
-.score-text{
+.score-text {
     text-align: center;
     color: whitesmoke;
 }

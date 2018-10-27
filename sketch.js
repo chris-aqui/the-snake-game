@@ -30,7 +30,7 @@ function mousePressed () {
 }
 
 function draw () {
-  console.log('drawing canvus')
+  // console.log('drawing canvus')
   //  background color
   // canvas.parent('p5-container');
   background(51);
